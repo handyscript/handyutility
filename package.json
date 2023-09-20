@@ -1,0 +1,95 @@
+{
+  "name": "handyutils",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "handyscript",
+  "description": "a set of Javascript supplements utilities and functions",
+  "homepage": "https://github.com/handyscript/handyutils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handyscript/handyutils.git"
+  },
+  "license": "MIT",
+  "main": "dist/hu.min.cjs",
+  "module": "dist/hu.min.js",
+  "directories": {
+    "utils": "utils"
+  },
+  "files": [
+    "dist",
+    "utils",
+    "index.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "JStest": "node test/index.js",
+    "TStest": "tsc test/index.ts",
+    "test": "npm run lint && npm run JStest && npm run TStest",
+    "watch": "rollup -c rollup.config.js --config-dev -w",
+    "build": "rollup -c rollup.config.js --config-prod"
+  },
+  "keywords": [
+    "package",
+    "useful",
+    "easier",
+    "easy",
+    "helpful",
+    "help",
+    "helpers",
+    "es6",
+    "es7",
+    "js",
+    "ts",
+    "javascript",
+    "typescript",
+    "handy-script",
+    "handyscript",
+    "handyutils",
+    "modules",
+    "utils",
+    "utilities",
+    "utility",
+    "newjs",
+    "handy",
+    "var",
+    "let",
+    "json",
+    "object",
+    "array",
+    "string",
+    "number",
+    "boolean",
+    "function",
+    "class",
+    "api",
+    "validate",
+    "validation",
+    "valid",
+    "check",
+    "checkers",
+    "exfiltrate",
+    "exfiltration",
+    "const"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "rollup": "^3.29.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "handyscript": "^1.1.0"
+  }
+}

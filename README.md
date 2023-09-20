@@ -2,21 +2,21 @@
 <img width="100%" alt="Handy Utils Cover" src="assets/HSCover.png"/>
 </p>
 
-<h1 align="center">Handy Utils</h1>
+<h1 align="center">Handy Utility</h1>
 
 <p align="center">
 A set of Javascript supplements utilities and functions
 </p>
 
 <p align="center">
-<img alt="NPM DOWNLOADS" src="https://img.shields.io/npm/dw/handyutils?color=5319e7&style=flat-square">
-<img alt="NPM LICENSE" src="https://img.shields.io/npm/l/handyutils?color=k&label=license&style=flat-square">
-<img alt="NPM VERSION" src="https://img.shields.io/npm/v/handyutils?color=ff6905&label=npm&style=flat-square">
+<img alt="NPM DOWNLOADS" src="https://img.shields.io/npm/dw/handyutility?color=5319e7&style=flat-square">
+<img alt="NPM LICENSE" src="https://img.shields.io/npm/l/handyutility?color=k&label=license&style=flat-square">
+<img alt="NPM VERSION" src="https://img.shields.io/npm/v/handyutility?color=ff6905&label=npm&style=flat-square">
 </p>
 
 ## Installation
 
-You can install **Handy Utils** using npm:
+You can install **Handy Utility** using npm:
 
 ```shell
 npm install handyscript
@@ -25,19 +25,19 @@ npm install handyscript
 Alternatively, you can use the **CDN** script to include the `hu.min.js` in your HTML file
 
 ```html
-<script src="https://unpkg.com/browse/handyutils@latest/dist/hu.min.cjs"></script>
+<script src="https://unpkg.com/browse/handyutility@latest/dist/hu.min.cjs"></script>
 ```
 
 Alternatively, you can use the **CDN** script to include the `hu.min.js` in your HTML file
 
 ```html
 <!-- VIA: jsdelivr CDN -->
-<script src="https://cdn.jsdelivr.net/npm/handyutils@latest/dist/hu.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handyutility@latest/dist/hu.min.js"></script>
 <!-- VIA: unpkg CDN -->
-<script src="https://unpkg.com/handyutils@latest/dist/hu.min.js"></script>
+<script src="https://unpkg.com/handyutility@latest/dist/hu.min.js"></script>
 ```
 
-Otherwise, you can download the `hu.min.js` file from the [dist](./dist/hu.min.cjs) directory and include it in your HTML file, or [click here](https://cdn.jsdelivr.net/npm/handyscript@latest/dist/hu.min.cjs) to download it directly
+Otherwise, you can download the `hu.min.js` file from the [dist](./dist/hu.min.cjs) directory and include it in your HTML file, or [click here](https://cdn.jsdelivr.net/npm/handyutility@latest/dist/hu.min.cjs) to download it directly
 
 ```html
 <script src="path/to/hu.min.js"></script>

@@ -1,13 +1,13 @@
 {
-  "name": "handyutils",
+  "name": "handyutility",
   "version": "1.0.0",
   "type": "module",
   "author": "handyscript",
   "description": "a set of Javascript supplements utilities and functions",
-  "homepage": "https://github.com/handyscript/handyutils#readme",
+  "homepage": "https://github.com/handyscript/handyutility#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/handyscript/handyutils.git"
+    "url": "git+https://github.com/handyscript/handyutility.git"
   },
   "license": "MIT",
   "main": "dist/hu.min.cjs",

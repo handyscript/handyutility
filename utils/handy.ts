@@ -3,11 +3,12 @@ import axios from "axios";
 
 /**
  * Retrieve the IP address of the current machine
- * @returns {Promise<string> as IP address}
+ * @returns {Promise<string>} as IP address
  */
 export async function IPify(): Promise<string> {
   try {
-    return await (await axios.get("https://api.ipify.org?format=json")).data.ip;
+    const response = await axios.get("https://api.ipify.org?format=json");
+    return response.data.ip;
   } catch (error) {
     throw new Error("Failed to retrieve IP address");
   }
@@ -21,8 +22,9 @@ export async function IPify(): Promise<string> {
  */
 export function searchParamsSerializer(url: URL): Record<string, string> {
   const params: Record<string, string> = {};
-  for (const [key, value] of url.searchParams.entries()) {
+  // Convert the entries to an array and iterate over it
+  Array.from(url.searchParams.entries()).forEach(([key, value]) => {
     params[key] = value;
-  }
+  });
   return params;
 }

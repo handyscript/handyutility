@@ -19,7 +19,7 @@ A set of Javascript supplements utilities and functions
 You can install **Handy Utility** using npm:
 
 ```shell
-npm install handyscript
+npm install handyutility
 ```
 
 Alternatively, you can use the **CDN** script to include the `hu.min.js` in your HTML file

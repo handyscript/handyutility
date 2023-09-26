@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<img width="100%" alt="Handy Utils Cover" src="assets/HSCover.png"/>
+<img width="100%" alt="Handy Utililty Cover" src="assets/HandyUtility-Banner.jpg"/>
 </p>
 
 <h1 align="center">Handy Utility</h1>
@@ -48,10 +48,10 @@ Otherwise, you can download the `hu.min.js` file from the [dist](./dist/hu.min.c
 Once you have installed or included the **hu.min.js** file, you can start using the functions in your code.
 
 ```javascript
-// Import the handyutils
-import Utils from "handyutils";
+// Import the handyutility
+import Utils from "handyutility";
 // explicitly use the handy, operators and promises ...
-import { Handy, Operators, Promises  } from "handyutils"
+import { Handy, Operators, Promises  } from "handyutility"
 
 Utils.handy.IPify().then((ip) => {
   console.log(ip);

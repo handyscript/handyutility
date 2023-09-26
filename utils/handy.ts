@@ -3,7 +3,7 @@ import axios from "axios";
 
 /**
  * Retrieve the IP address of the current machine
- * @returns {Promise<string> as IP address}
+ * @returns {Promise<string>} as IP address
  */
 export async function IPify(): Promise<string> {
   try {
@@ -21,7 +21,7 @@ export async function IPify(): Promise<string> {
  */
 export function searchParamsSerializer(url: URL): Record<string, string> {
   const params: Record<string, string> = {};
-  for (const [key, value] of url.searchParams.entries()) {
+  for (const [key, value] of new URLSearchParams(url.search)) {
     params[key] = value;
   }
   return params;
